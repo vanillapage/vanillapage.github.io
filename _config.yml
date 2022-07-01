@@ -204,3 +204,11 @@ plugins:
 # theme: jekyll-theme-yat
 # theme: owner/name --> Don't forget to remove/comment the gem-based theme option
 remote_theme: "jeffreytse/jekyll-theme-yat"
+
+# Analytics
+analytics :
+  provider  : "google-gtag" 
+            # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id : "G-5HQPK7RHNC"
+    anonymize_ip : # true, false (default)
