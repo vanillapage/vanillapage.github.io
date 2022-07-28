@@ -187,7 +187,7 @@ html[data-scroll-status='down'] .framework .sidebar { top: 20px; }
 .post-nav a { font-size: 15.75px; line-height: 15px; color: #666; max-width: 50%; background: linear-gradient(transparent calc(100% - 8px), #ff5100 calc(100% - 8px), #ff5100 calc(100% - 6px), transparent calc(100% - 6px)); background-size: 0 100%; background-repeat: no-repeat; transition: background-size 0.4s; transition-delay: 0.05s; }
 .post-nav a:hover { text-decoration: none; background-size: 100% 100%; }
 .post-nav a:hover:before { border-color: #ff5100; }
-.post-nav .previous:before { content: ' '; border: solid #828282; border-width: 0 2px 2px 0; display: inline-block; margin: 3px 8px 0 0; padding: 4px; transform: rotate(135deg); -webkit-transform: rotate(135deg); vertical-align: top; transform-origin: left top; }
+.post-nav .previous:before { content: ' '; border: solid #828282; border-width: 0 2px 2px 0; display: inline-block; margin: 3px 8px 0 0; padding: 4px; transform: rotate(135deg); -webkit-transform: rotate(135deg); vertical-align: top; }
 .post-nav .next:after { content: ' '; border: solid #ff5100; border-width: 0 2px 2px 0; display: inline-block; margin: 3px 0 0 8px; padding: 4px; transform: rotate(-45deg); -webkit-transform: rotate(-45deg); vertical-align: top; }
 
 /** Archives page */
